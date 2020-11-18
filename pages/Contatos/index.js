@@ -51,11 +51,11 @@ return(
     <View style ={styles.container}>
 
     <Text>Contatos</Text>
-    {/* <FlatList
+    <FlatList
         data = {contatos}
         keyExtractor={item => item.id}
         renderItem={renderItem}
-    /> */}
+    />
 
     </View>
 )

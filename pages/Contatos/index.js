@@ -42,7 +42,9 @@ const Contatos = () =>{
     
     
     const renderItem = ({item}) => {
-        <ItemContato nome={item.name}/>
+        return(
+            <ItemContato nome={item.name}/>
+        )
     }
 
 return(
